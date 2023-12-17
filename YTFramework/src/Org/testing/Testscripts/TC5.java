@@ -12,6 +12,7 @@ import Org.testing.Pages.LoginPage;
 import Org.testing.Pages.LogoutPage;
 import Org.testing.Pages.NextButton;
 import Org.testing.Pages.SubscribeYT;
+import Org.testing.Pages.VideoPause;
 import Org.testing.Pages.VideoPlay;
 import Org.testing.Pages.homePageSignInbutton;
 
@@ -38,12 +39,15 @@ public class TC5 extends Baselaunch
 		VideoPlay VideoYT=new VideoPlay(driver, pr);
 		VideoYT.videoplays();
 		Thread.sleep(5000);
+		VideoPause Pausevideo=new VideoPause(driver, pr);
+		Pausevideo.Stopvideo();
+		Thread.sleep(3000);
 		SubscribeYT subscripbe=new SubscribeYT(driver, pr);
 		subscripbe.SubscribebuttonYT();
-		Thread.sleep(3000);
+		Thread.sleep(3000);		
 		LogoutPage Logout=new LogoutPage(driver, pr);
 		Logout.Logout();
-		Thread.sleep(4000);
+		
 		LogoutPage Signout=new LogoutPage(driver, pr);
 		Signout.Signout();
 		
