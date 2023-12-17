@@ -6,6 +6,7 @@
       <class name="Org.testing.Testscripts.TC1">
         <methods>
           <include name="browserclose"/>
+          <include name="browserlaunch"/>
           <include name="TC1"/>
         </methods>
       </class> <!-- Org.testing.Testscripts.TC1 -->
