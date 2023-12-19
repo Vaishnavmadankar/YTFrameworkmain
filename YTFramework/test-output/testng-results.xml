@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-17T22:20:21 IST" name="Default suite" finished-at="2023-12-17T22:21:06 IST" duration-ms="45059">
+  <suite started-at="2023-12-18T20:03:56 IST" name="Default suite" finished-at="2023-12-18T20:04:44 IST" duration-ms="48526">
     <groups>
     </groups>
-    <test started-at="2023-12-17T22:20:21 IST" name="Default test" finished-at="2023-12-17T22:21:06 IST" duration-ms="45059">
-      <class name="Org.testing.Testscripts.TC1">
-        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:Org.testing.Testscripts.TC1@1cbbffcd]" started-at="2023-12-17T22:20:21 IST" name="browserlaunch" finished-at="2023-12-17T22:20:31 IST" duration-ms="9747" status="PASS">
+    <test started-at="2023-12-18T20:03:56 IST" name="Default test" finished-at="2023-12-18T20:04:44 IST" duration-ms="48526">
+      <class name="Org.testing.Testscripts.TC9">
+        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:Org.testing.Testscripts.TC9@1cbbffcd]" started-at="2023-12-18T20:03:56 IST" name="browserlaunch" finished-at="2023-12-18T20:04:11 IST" duration-ms="15080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserlaunch -->
-        <test-method signature="TC1()[pri:0, instance:Org.testing.Testscripts.TC1@1cbbffcd]" started-at="2023-12-17T22:20:31 IST" name="TC1" finished-at="2023-12-17T22:21:04 IST" duration-ms="32960" status="PASS">
+        <test-method signature="TC9()[pri:0, instance:Org.testing.Testscripts.TC9@1cbbffcd]" started-at="2023-12-18T20:04:11 IST" name="TC9" finished-at="2023-12-18T20:04:42 IST" duration-ms="31036" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC1 -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:Org.testing.Testscripts.TC1@1cbbffcd]" started-at="2023-12-17T22:21:04 IST" name="browserclose" finished-at="2023-12-17T22:21:06 IST" duration-ms="2289" status="PASS">
+        </test-method> <!-- TC9 -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:Org.testing.Testscripts.TC9@1cbbffcd]" started-at="2023-12-18T20:04:42 IST" name="browserclose" finished-at="2023-12-18T20:04:44 IST" duration-ms="2358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-      </class> <!-- Org.testing.Testscripts.TC1 -->
+      </class> <!-- Org.testing.Testscripts.TC9 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

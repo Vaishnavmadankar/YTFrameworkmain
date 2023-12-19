@@ -1,9 +1,14 @@
 package Org.testing.Testscripts;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -38,9 +43,9 @@ public class TC4 extends Baselaunch
 		NextButton nextbuttonclick1=new NextButton(driver, pr);
 		nextbuttonclick1.buttonclick();
 		Thread.sleep(3000);
+		//Wait w=new WebDriverWait(driver,Duration.ofSeconds(1000));
 		VideoPlay VideoYT=new VideoPlay(driver, pr);
-		VideoYT.videoplays();
-		Thread.sleep(5000);
+		//w.until(ExpectedConditions.elementToBeClickable("videoplay"));
 		Actions Ac=new Actions(driver);
 		Ac.keyDown(Keys.DOWN).click().perform();
 		VideoLikes Likes=new VideoLikes(driver, pr);
