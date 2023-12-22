@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class TC11 
+public class Assertion 
 {
 	SoftAssert s1=new SoftAssert ();   // This is soft assertion 
 	
